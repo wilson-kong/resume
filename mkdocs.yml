@@ -1,5 +1,7 @@
 site_name: Wilson's Space
 nav:
-  - Home: index.md
-  - About: about.md
+  - Main: index.md
+  - About Wilson: about.md
 # theme: readthedocs
+markdown_extensions:
+  - attr_list
