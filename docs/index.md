@@ -12,7 +12,7 @@ This website is dedicated to outlining my experience and skillsets.
 - [Welcome to Wilson](#welcome-to-wilson)
   - [Education](#education)
   - [Work experience](#work-experience)
-    - [She codes](#she-codes)
+    - [Industry Mentor - Python(Django, DRF)](#industry-mentor---pythondjango-drf)
     - [Software Engineer - Teaching Assistant](#software-engineer---teaching-assistant)
   - [Projects](#projects)
   - [Volunteer experience](#volunteer-experience)
@@ -21,10 +21,6 @@ This website is dedicated to outlining my experience and skillsets.
 | BE/ME |  UQ |
 | :---------------- | ----: |
 | Majoring in Mechatronics ||
-
-```bash
-BE/ME |  UQ
-```
 
 --------------------------------------------------
 ## Work experience
@@ -43,22 +39,39 @@ class Work:
         self._start = duration[0]
         self._end = duration[1]
         self._location = location
+        self._responsibilities = []
+
+    def add_responsibility(self, responsibility: str):
+        """ Add a responsibility to this role.
+            Parameters:
+                responsibility: description of responsibility.
+        """
+        self._responsibilities.append(responsibility)
 
     def __str__(self) -> str:
         """ Return the role description """
         print(f'Work as a {self._title} at {self._company} '\
-        'located in {self._location} '
-        'from {duration[0]} to {duration[1]}.')
+        f'located in {self._location} '\
+        f'from {duration[0]} to {duration[1]}.')
+
+        print('My key responsibilities include:')
+        for responsibility in self._responsibilities:
+            print(f'- {responsibility}')
 ```
-### She codes
+### Industry Mentor - Python(Django, DRF)
 ```python
 >>> duration = (2023, 'present')
 >>> work = Work(
-        'Software Mentor - Python(Django, DRF)',
+        'Industry Mentor - Python(Django, DRF)',
         'She Codes',
         duration,
-        'Brisbane'
+        'Brisbane or Meeanjin'
     )
+>>> work.add_responsibility('Python education. Object-oriented programming '\
+    'philosophies and best practices.')
+>>> work.add_responsibility('Django, DRF, and React mentoring.')
+>>> work.add_responsibility('Communicate and mentor adults that have spent '\
+    'time in different fields.')
 >>> print(work)
 ```
 
@@ -69,14 +82,16 @@ class Work:
         'Software engineer - Teaching assistant',
         'The University of Queensland',
         duration,
-        'Brisbane'
+        'Brisbane or Meeanjin'
     )
 >>> print(work)
 ```
 
+--------------------------------------------------
 ## Projects
 * [Wordle Clone](https://wilson-kong.github.io/games)
 
+--------------------------------------------------
 ## Volunteer experience
 
 <!-- ## Project layout
