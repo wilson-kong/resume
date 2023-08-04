@@ -1,0 +1,5 @@
+site_name: Wilson's Space
+nav:
+  - Home: index.md
+  - About: about.md
+# theme: readthedocs
