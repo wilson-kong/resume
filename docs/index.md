@@ -1,4 +1,4 @@
-# Welcome to Wilson
+# Welcome ☺
 This website is dedicated to outlining my experience and skillsets.
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
 
@@ -9,7 +9,7 @@ This website is dedicated to outlining my experience and skillsets.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit. -->
 
-- [Welcome to Wilson](#welcome-to-wilson)
+- [Welcome ☺](#welcome-)
   - [Education](#education)
   - [Work experience](#work-experience)
     - [Industry Mentor - Python(Django, DRF)](#industry-mentor---pythondjango-drf)
@@ -25,8 +25,8 @@ This website is dedicated to outlining my experience and skillsets.
 --------------------------------------------------
 ## Work experience
 === "Python"
-    ```python
-    class Work:
+    ```python title="work_class.py"
+    class Work: # Click me -> (1) <-
         def __init__(self, title: str, company: str, duration: tuple, location: str):
             """ Creates an instance of work.
                 Parameters:
@@ -64,8 +64,10 @@ This website is dedicated to outlining my experience and skillsets.
             return output
     ```
 
+    1. Feel free to copy this code to your computer 💻 to set up the work class.
+
 === "Java"
-    ```java
+    ```java title="WorkClass.java"
     import java.util.ArrayList;
     import java.util.List;
 
@@ -125,7 +127,7 @@ This website is dedicated to outlining my experience and skillsets.
 
 ### Industry Mentor - Python(Django, DRF)
 === "Python"
-    ```python
+    ```python title="Python shell"
     >>> duration = (2023, 'present')
     >>> work = Work(
             'Industry Mentor - Python(Django, DRF)',
@@ -142,7 +144,7 @@ This website is dedicated to outlining my experience and skillsets.
     ```
 
 === "Java"
-    ```java
+    ```java title="Main.java"
     public class Main {
         public static void main(String[] args) {
             int startYear = 2023;
@@ -167,7 +169,7 @@ This website is dedicated to outlining my experience and skillsets.
 
 ### Software Engineer - Teaching Assistant
 === "Python"
-    ```python
+    ```python title="Python shell"
     >>> duration = (2019, 'present')
     >>> work = Work(
             'Software engineer - Teaching assistant',
@@ -175,11 +177,22 @@ This website is dedicated to outlining my experience and skillsets.
             duration,
             'Brisbane or Meeanjin'
         )
+    >>> work.add_responsibility('Designing and developing software learning'\ 
+    'resources and assessment pieces.')
+    >>> work.add_responsibility('Python unit testing, static analysing, and '\
+    'grading tool integration (Gradescope) for a number of major assessments'\ 
+    'since 2021.')
+    >>> work.add_responsibility('Providing training for new tutors.')
+    >>> work.add_responsibility('Stakeholder engagement with the uni to plan'\ 
+    'and decide the direction of courses and a student\’s university career.')
+    >>> work.add_responsibility('Regularly reporting to the course-coordinator.')
+    >>> work.add_responsibility('Teaching coding concepts in Python, C++ '\
+    '(Arduino), Java, and C.')
     >>> print(work)
     ```
 
 === "Java"
-    ```java
+    ```java title="Main.java"
     public class Main {
         public static void main(String[] args) {
             int startYear = 2019;
@@ -191,6 +204,16 @@ This website is dedicated to outlining my experience and skillsets.
                     endYear,
                     "Brisbane or Meeanjin"
             );
+            work.addResponsibility("Designing and developing software learning" +
+                "resources and assessment pieces.");
+            work.addResponsibility("Python unit testing, static analysing, and " +
+                "grading tool integration (Gradescope) for a number of major assessments since 2021.");
+            work.addResponsibility("Providing training for new tutors.");
+            work.addResponsibility("Stakeholder engagement with the uni to plan" +
+                "and decide the direction of courses and a student\’s university career.");
+            work.addResponsibility("Regularly reporting to the course-coordinator.");
+            work.addResponsibility("Teaching coding concepts in Python, C++ " +
+                "(Arduino), Java, and C.");
             System.out.println(work);
         }
     }

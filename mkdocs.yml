@@ -2,8 +2,31 @@ site_name: Wilson's Space
 nav:
   - Main: index.md
   - About Wilson: about.md
+  - Contact Wilson: contact.md 
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: teal
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: blue grey
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  features:
+    - content.code.copy
+    - content.code.annotate
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -13,5 +36,3 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
-theme:
-  name: material
