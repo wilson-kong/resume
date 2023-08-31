@@ -1,7 +1,9 @@
 
-[Contact me 📧 ](mailto:w.k.wilson.kong@gmail.com){ .md-button }
+[Email me 📧 ](mailto:w.k.wilson.kong@gmail.com){ .md-button }
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/wilson-kong-2290ba83/)
+[LinkedIn 📇 ](https://www.linkedin.com/in/wilson-kong-2290ba83/){ .md-button }
+
+[GitHub 🐱 ]([https://](https://github.com/wilson-kong)){ .md-button }
 
 
 <form action="mailto:w.k.wilson.kong@gmail.com" method="post" enctype="text/plain">
