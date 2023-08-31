@@ -3,7 +3,7 @@
 
 [LinkedIn 📇 ](https://www.linkedin.com/in/wilson-kong-2290ba83/){ .md-button }
 
-[GitHub 🐱 ]([https://](https://github.com/wilson-kong)){ .md-button }
+[GitHub 🐱 ](https://github.com/wilson-kong){ .md-button }
 
 
 <form action="mailto:w.k.wilson.kong@gmail.com" method="post" enctype="text/plain">
