@@ -6,5 +6,9 @@ using `mkdocs` ([https://www.mkdocs.org/](https://www.mkdocs.org/)) to create a 
 
 ```bash
 mkdocs serve
-```# resume
-# resume
+```
+
+## Installing themes
+```bash
+python -m pip install mkdocs-material
+```
