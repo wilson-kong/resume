@@ -12,7 +12,7 @@ This website is dedicated to outlining my experience and skillsets.
 - [Welcome ☺](#welcome-)
   - [Education](#education)
   - [Work experience](#work-experience)
-    - [Industry Mentor - Python(Django, DRF)](#industry-mentor---pythondjango-drf)
+    - [Software Industry Mentor - Python(Django, DRF)](#software-industry-mentor---pythondjango-drf)
     - [Software Engineer - Teaching Assistant](#software-engineer---teaching-assistant)
   - [Projects](#projects)
   - [Volunteer experience](#volunteer-experience)
@@ -125,21 +125,26 @@ This website is dedicated to outlining my experience and skillsets.
     }
     ```
 
-### Industry Mentor - Python(Django, DRF)
+### Software Industry Mentor - Python(Django, DRF)
 === "Python"
     ```python title="Python shell"
     >>> duration = (2023, 'present')
     >>> work = Work(
-            'Industry Mentor - Python(Django, DRF)',
+            'Software Industry Mentor - Python(Django, DRF)',
             'She Codes',
             duration,
             'Brisbane or Meeanjin'
         )
     >>> work.add_responsibility('Python education. Object-oriented programming '\
         'philosophies and best practices.')
-    >>> work.add_responsibility('Django, DRF, and React mentoring.')
-    >>> work.add_responsibility('Communicate and mentor adults that have spent '\
-        'time in different fields.')
+    >>> work.add_responsibility('Providing practical learning opportunities '\
+        '(Python, Django, DRF (Django Rest Framework) with React front end)')
+    >>> work.add_responsibility('Teaching adult students to create a '\
+        'DRF backend and SQL light db, deploying to fly.io. '\
+        'CI/CD pipeline with Github Actions. ')
+    >>> work.add_responsibility('Automated-test development for projects. ')
+    >>> work.add_responsibility('Working alongside other mentors and software '\ 
+        'engineers.')
     >>> print(work)
     ```
 
@@ -151,7 +156,7 @@ This website is dedicated to outlining my experience and skillsets.
             int endYear = 2023;
             
             Work work = new Work(
-                "Industry Mentor - Python(Django, DRF)",
+                "Software Industry Mentor - Python(Django, DRF)",
                     "She Codes",
                     startYear,
                     endYear,
@@ -159,9 +164,14 @@ This website is dedicated to outlining my experience and skillsets.
             );
             work.addResponsibility("Python education. Object-oriented programming " +
                     "philosophies and best practices.");
-            work.addResponsibility("Django, DRF, and React mentoring.");
-            work.addResponsibility("Communicate and mentor adults that have spent " +
-                    "time in different fields.");
+            work.addResponsibility("Providing practical learning opportunities " +
+                "(Python, Django, DRF (Django Rest Framework) with React front end)");
+            work.addResponsibility("Teaching adult students to create a " +
+                "DRF backend and SQL light db, deploying to fly.io. " +
+                "CI/CD pipeline with Github Actions.");
+            work.addResponsibility("Automated-test development for projects. ");
+            work.addResponsibility("Working alongside other mentors and software " +
+                "engineers.");
             System.out.println(work);
         }
     }
