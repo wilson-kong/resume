@@ -4,9 +4,9 @@
 
 ![](img/headshot.png){: style="height:150px;width:150px"}
 
-I am a highly driven person who loves to learn. In addition to having practical and theoretical knowledge in software and mechatronics engineering I am also a people person and enjoy to connect and work with others. Furthermore, I am an effective technologies communicator as I have spent most of my time educating others about engineering and software.
+I am a highly motivated individual with expertise in software and mechatronics engineering. I am also a people person who enjoys connecting and working with others. My passion for learning is matched with an ability to effectively communicate complex technical concepts, honed through education and project experience. A career primarily centered on writing software and programming, additional involvement in industry and the startup space has leveraged proven  technical and soft skills to a high degree.
 
-With my track record of projects and employment, I have proven my skills in communication, team-work, problem solving, managing, and being punctual. Although my career has largely been focused on academia and education, I am interested in real-world industry experience to develop my skills as an engineer and make meaningful contributions to people’s lives.
+I am interested in a career where I can continue to develop my skills as an engineer and make meaningful contributions to people’s lives.
 
 ## Soft skills and strengths
 - Good Communication
